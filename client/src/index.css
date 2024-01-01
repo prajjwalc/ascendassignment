@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.listbox::-webkit-scrollbar {
+    width: 0.2rem;
+    height: 0.5rem;
+}
+
+.listbox::-webkit-scrollbar-track {
+    box-shadow: transparent;
+}
+
+.listbox::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+}
